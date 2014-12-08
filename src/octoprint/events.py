@@ -27,6 +27,9 @@ class Events(object):
 	# connect/disconnect by client
 	CLIENT_OPENED = "ClientOpened"
 	CLIENT_CLOSED = "ClientClosed"
+	# User or Admin Login Event
+	CLIENT_LOGIN_ADMIN = "ClientAdminLogin"
+	CLIENT_LOGIN_USER = "ClientUserLogin"
 
 	# File management
 	UPLOAD = "Upload"
